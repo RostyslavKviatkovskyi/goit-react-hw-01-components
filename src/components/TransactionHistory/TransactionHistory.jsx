@@ -1,5 +1,5 @@
 import { OneTransaction } from '../TransactionHistory/OneTransaction';
-import { Row, Table } from './TransactionHistory.styled';
+import { Table } from './TransactionHistory.styled';
 
 export const TransactionHistory = ({ items }) => {
   return (
