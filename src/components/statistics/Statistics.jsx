@@ -1,12 +1,12 @@
 import PropTypes from 'prop-types';
-import {} from './Statistics.styled';
+import { Box } from '../Box/Box';
 
 export const Statistics = ({ title, children }) => {
   return (
-    <div className="statistics">
+    <Box bg="secondary">
       {title && <h2 className="title">{title}</h2>}
       {children}
-    </div>
+    </Box>
   );
 };
 
